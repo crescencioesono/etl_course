@@ -1,0 +1,20 @@
+2025-05-13 15:34:12,420 - ml_etl - INFO - Iniciando pipeline ETL para preparar datos de ML.
+2025-05-13 15:34:12,421 - ml_etl - INFO - Iniciando la extracción de datos.
+2025-05-13 15:34:12,523 - ml_etl - INFO - Datos extraidos de CSV: 100 registros.
+2025-05-13 15:34:12,532 - ml_etl - INFO - Datos extraidos de API: 100 registros.
+2025-05-13 15:34:12,547 - ml_etl - INFO - Datos extraidos de base de datos: 100 registros.
+2025-05-13 15:34:12,549 - ml_etl - INFO - Iniciando la transformación de datos.
+2025-05-13 15:34:12,601 - ml_etl - INFO - Transformación de datos completada: 28 características generadas.
+2025-05-13 15:34:12,602 - ml_etl - INFO - Iniciando la carga de datos.
+2025-05-13 15:34:12,639 - ml_etl - ERROR - Error en la carga de datos: 'builtin_function_or_method' object has no attribute 'isoformat'
+2025-05-13 15:34:12,639 - ml_etl - ERROR - Error en el proceso ETL: 'builtin_function_or_method' object has no attribute 'isoformat'
+2025-05-13 15:35:13,081 - ml_etl - INFO - Iniciando pipeline ETL para preparar datos de ML.
+2025-05-13 15:35:13,082 - ml_etl - INFO - Iniciando la extracción de datos.
+2025-05-13 15:35:13,103 - ml_etl - INFO - Datos extraidos de CSV: 100 registros.
+2025-05-13 15:35:13,108 - ml_etl - INFO - Datos extraidos de API: 100 registros.
+2025-05-13 15:35:13,119 - ml_etl - INFO - Datos extraidos de base de datos: 100 registros.
+2025-05-13 15:35:13,121 - ml_etl - INFO - Iniciando la transformación de datos.
+2025-05-13 15:35:13,149 - ml_etl - INFO - Transformación de datos completada: 28 características generadas.
+2025-05-13 15:35:13,149 - ml_etl - INFO - Iniciando la carga de datos.
+2025-05-13 15:35:13,216 - ml_etl - INFO - Datos cargados y guardados en c:\Users\KDY\OneDrive - Marathon Oil Company\Documents\ETL\etl_course\etl_project\data\raw\ml_data.db.
+2025-05-13 15:35:13,217 - ml_etl - INFO - Pipeline ETL completado con éxito.
