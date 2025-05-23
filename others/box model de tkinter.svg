@@ -1,0 +1,30 @@
+<svg viewBox="0 0 1200 900" xmlns="http://www.w3.org/2000/svg">
+  <!-- Título principal -->
+  <text x="600" y="30" text-anchor="middle" font-size="24" font-weight="bold" fill="#2c3e50">
+    Box Model de Tkinter - Comportamiento Visual de Widgets
+  </text>
+  
+  <!-- Sección principal del box model -->
+  <g transform="translate(50, 70)">
+    <!-- Contenedor exterior (parent) -->
+    <rect x="300" y="0" width="500" height="400" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="3" stroke-dasharray="5,5"/>
+    <text x="310" y="20" font-size="14" font-weight="bold" fill="#34495e">Parent Widget (Window/Frame)</text>
+    
+    <!-- Padding externo (padx, pady para pack/grid) -->
+    <rect x="340" y="40" width="420" height="320" fill="#f39c12" fill-opacity="0.3" stroke="#e67e22" stroke-width="2"/>
+    <text x="350" y="60" font-size="12" font-weight="bold" fill="#d35400">External Padding (padx, pady)</text>
+    
+    <!-- Border del widget -->
+    <rect x="380" y="80" width="340" height="240" fill="none" stroke="#e74c3c" stroke-width="4"/>
+    <text x="390" y="100" font-size="12" font-weight="bold" fill="#c0392b">Border (relief, borderwidth)</text>
+    
+    <!-- Padding interno -->
+    <rect x="410" y="110" width="280" height="180" fill="#9b59b6" fill-opacity="0.3" stroke="#8e44ad" stroke-width="2"/>
+    <text x="420" y="130" font-size="12" font-weight="bold" fill="#7d3c98">Internal Padding (ipadx, ipady)</text>
+    
+    <!-- Contenido del widget -->
+    <rect x="440" y="140" width="220" height="120" fill="#3498db" stroke="#2980b9" stroke-width="2"/>
+    <text x="550" y="200" text-anchor="middle" font-size="14" font-weight="bold" fill="white">Widget Content</text>
+    <text x="550" y="220" text-anchor="middle" font-size="12" fill="white">(text, image, etc.)</text>
+  </g>
+</svg>
